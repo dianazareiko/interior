@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sepuluh Interior</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/56dadf4ac8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    
+<!--HOME-->
+    
+<header id="home"><!--raudoni remai-->
+    <div class="slider"><!--slides pradzia-->
+        <div class="mySlides">
+            <img src="images/interiorbackground.jpg" alt="Interior Design">
+            <div class="container">
+                <div class="text">
+                    <h1>Original Style</h1>
+                    <p>Make it Your Own</p>
+                </div>
+            </div>
+        </div>
+        <div class="mySlides">
+            <img src="images/interiorbackground6.jpg" alt="Interior Design">
+            <div class="text">
+                <h1>Original Style</h1>
+                <p>Make it Your Own</p>
+            </div>
+        </div>
+        <div class="mySlides">
+            <img src="images/interiorbackground4.jpg" alt="Interior Design">
+            <div class="text">
+                <h1>Original Style</h1>
+                <p>Make it Your Own</p>
+            </div>
+        </div>
+    </div><!--slides pabaiga-->
+    <div class="dots"> <!--dots-->
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+    <div class="top-header"> <!--header zali remai-->
+        <a href="index.html"><img src="images/interjeraslogo_03.png" alt="Sepuluh Logo"></a><!--logo violetiniai remai-->
+        <div class="nav"> <!--navigacijos violetiniai remai-->
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About us</a></li>
+                <li><a href="#service">Our Services</a></li>
+                <li><a href="#contacts">Contact</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+            </ul>
+        </div>
+        <nav class="mobile-nav"> <!--hamburger mobiliam meniu-->
+            <ul id="mMenu" class="flex-container">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About us</a></li>
+                <li><a href="#service">Our Services</a></li>
+                <li><a href="#contacts">Contact</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+            </ul>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i></a>
+        </nav>
+        <div class="contact-header"> <!--kontaktai violetiniai remai-->
+            <ul>
+                <li><i class="fas fa-phone-alt"></i><a href="tel:1-444-235-2522">1-444-235-2522</a></li>
+                <li><i class="fas fa-globe"></i> <a href="mailto:info@youdomain.com">info@yourdomain.com</a></li>
+            </ul>
+        </div>
+    </div>  
+</header>
+    
+<!--ABOUT US-->
+    
+<main> 
+    <div id="about" class="about-us"><!--raudoni remai-->
+        <div class="container"><!--centruojam turini, geltoni remai-->
+            <ul class="about-grid"> <!--zali remai aplink turini-->
+                <li class="grid-item tekstas">
+                    <h2>About Us</h2>
+                    <p>Here you can write about your awesome bio to let the audience get a feel of what are you offering to them. It should be simple and beautifully crafted to describe you in just a couple of sentences</p>
+                </li>
+                <li class="grid-item pirmas"><!--pirmas paveikslelis-->
+                    <img src="images/interioraboutus2.jpg" alt="Home interior design">
+                </li>
+                <li class="grid-item antras"><!--antras paveikslelis-->
+                    <img src="images/interioraboutus1.jpg" alt="Beton wall design">
+                </li>
+                <li class="grid-item trecias"><!--trecias paveikslelis-->
+                     <img src="images/interioraboutus3.jpg" alt="Beige and red home design">
+                </li>
+            </ul>
+        </div>
+    </div>
+        
+<!--SERVICES-->
+    
+    <div id="service" class="services"><!--raudoni remai-->
+        <div class="container"><!--centruojam turini, geltoni remai-->
+            <div class="service-antraste">
+                <h2>Our services</h2><!--zali remai aplink teksta-->
+            </div>
+            <div class="services-pic"><!--zali remai, stulpeliai our services-->
+                <div class="service interior"><!--violetinis remas interior design-->
+                    <img src="images/namas_03.png" alt="Icon house">
+                    <p>Interior Design</p>
+                </div>
+                <div class="service bathroom">
+                    <img src="images/ciaupas_03.png" alt="Icon sink">
+                    <p>Bathroom Design</p>
+                </div>
+                <div class="service wall">
+                    <img src="images/grindys_03.png" alt="Icon floor">
+                    <p>Wall Work</p>
+                </div>
+                <div class="service garden">
+                    <img src="images/gele_03.png" alt="Icon flower">
+                    <p>Garden Design</p>
+                </div>
+                <div class="service paint">
+                    <img src="images/dazymas_03.png" alt="Icon painting">
+                    <p>Colorful & Playful</p>
+                </div>
+                <div class="service light">
+                    <img src="images/lempute_03.png" alt="Icon light bulb">
+                    <p>Keep it Fresh</p>
+                </div>
+            </div>
+        </div>   
+    </div>
+        
+<!--CONTACT-->
+        
+    <div id="contacts" class="contact"><!--raudoni remai-->
+        <div class="container"><!--contact us geltoni remai-->
+            <div class="contact-two"><!--zali remai aplink nuotrauka ir kontaktine forma -->
+                <div class="contact-img"><!-- kontaktine nuotrauka is kaires, violetiniai remai-->
+                    <img src="images/interiorcontact2.jpg" alt="Home Design">
+                </div>
+                <div class="contact-form"><!--contact form is desines, violetiniai remai-->
+                    <div class="inside-container"> <!--centruojam formos vidu-->
+                        <p class="contact-top-text">We help search your perfect style</p>
+                        <h2>Contact Us</h2>
+                        <form id="contact" action="index.html" method="post"> <!--contact pildoma forma-->
+                            <div class="wrapper">
+                                <input class="line" type="text" name="name" placeholder="Who are you?" required>
+                                <i class="far fa-user"></i><br><!--icon user-->
+                            </div>
+                            <div class="wrapper">
+                                <input class="line" type="tel" name="phone" pattern="[0-9]{9,11}" placeholder="What is your number?" required>
+                                <i class="fas fa-microphone-alt"></i><br><!--icon microphone-->
+                            </div>
+                            <div class="wrapper">
+                                <input class="line" type="email" name="email" placeholder="What is your email?" required>
+                                <i class="far fa-envelope"></i><br><!--icon letter-->
+                            </div>
+                            <input class="btn" type="submit" name="submit" value="We will contact you !">
+                        </form>
+                        <p class="contact-bottom-text">This is just a simple reminder that your private data will not be given to someone else</p>
+                    </div>
+                </div>  
+            </div>
+        </div>
+    </div>
+        
+<!--PORTFOLIO-->
+        
+    <div id="portfolio" class="portfolio"><!-- raudoni remai-->
+        <div class="container"><!--centruojam, geltoni remai-->
+            <div class="portfolio-antraste"><!--zali remai aplink teksta-->
+                <h2>Portfolio</h2>
+            </div>
+            <div class="portfolio-box"><!--zali remai roomu-->
+                <div class="room appartement"><!--appartement room, violetiniai remai-->
+                    <img src="images/interiorportfolio1.jpg" alt="Appartement Room Design">
+                    <h3>Appartement Room</h3>
+                    <p>Here is small description</p>
+                </div>
+                <div class="room bathroom"><!--bathroom, violetiniai remai-->
+                    <img src="images/interiorportfolio2.jpg" alt="Bathroom Design">
+                    <h3>Bathroom</h3>
+                    <p>Nice and cozy little bathroom</p>
+                </div>
+                <div class="room zen">
+                    <img src="images/interiorportfolio3.jpg" alt="Zen Garden Design">
+                    <h3>Zen Garden</h3>
+                    <p>Quiet place to get a peace of mind</p>
+                </div>
+                <div class="room office">
+                    <img src="images/interiorportfolio4.jpg" alt="Modern Office Design">
+                    <h3>Modern Office</h3>
+                    <p>Get busy!</p>
+                </div>
+            </div>
+            <button class="see-more" onclick=" window.open('https://unsplash.com/s/photos/interior','_blank')">See more</button>
+        </div>
+    </div>
+</main>
+    
+<!--FOOTER-->
+    
+<footer>
+    <div class="footer"><!--raudoni remai-->
+        <div class="container"><!--geltoni remai, centruojam-->
+            <div class="flex-footer"> <!--zali remai-->
+                <div class="footer-logo">
+                    <a href="index.html"><img src="images/interjeraslogo_03.png" alt="Sepuluh Logo"></a>
+                </div>
+                <div class="footer-right"> <!--desinia footerio puse-->
+                    <div class="footer-nav"> <!--navigacijos zali remai-->
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About us</a></li>
+                            <li><a href="#service">Our Services</a></li>
+                            <li><a href="#contacts">Contact</a></li>
+                            <li><a href="#portfolio">Portfolio</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-contact"><!--kontaktine dalis, zali remai-->
+                        <p>Your Company address here - <b>telephone number </b><a href="tel:1-444-235-2522">1-444-235-2522</a> - <b>Email address </b><a href="mailto:info@youdomain.com">info@yourdomain.com</a></p>
+                        <ul class="terms">
+                            <li><a href="#">Terms of Use</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </div>
+</footer>
+    
+    <script src="scripts/custom.js"></script>
+</body>
+</html>
